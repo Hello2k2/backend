@@ -28,7 +28,7 @@ def create_app(config_class = Config):
 
         # Cấu hình CORS với nguồn gốc cụ thể
         CORS(app, resources={r"/*": {
-            "origins": ["https://shopacc.up.railway.app", "http://localhost:5173","backend-production-7761.up.railway.app"],
+            "origins": ["https://shopacc.up.railway.app", "http://localhost:5173","deom-backend-production.up.railway.app"],
             "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
             "allow_headers": ["Content-Type", "Authorization"]
         }})
