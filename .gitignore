@@ -3,7 +3,7 @@ venv/
 /venv/
 *.pyc
 __pycache__/
-
+.git/
 # Bỏ qua các file môi trường của Node.js
 node_modules/
 /node_modules/
